@@ -38,6 +38,7 @@ export default defineConfig({
         alias: {
           ...resolveAliasConfig,
         },
+        concatenateModules: true,
       },
       './index-with-locales.js': {
         sourcemap: true,
@@ -51,6 +52,7 @@ export default defineConfig({
         alias: {
           ...resolveAliasConfig,
         },
+        concatenateModules: true,
       },
     },
     copy: [
