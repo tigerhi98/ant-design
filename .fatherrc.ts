@@ -27,6 +27,7 @@ export default defineConfig({
   umd: {
     entry: {
       './index.js': {
+        name: 'antd',
         sourcemap: true,
         generateUnminified: true,
         bundler: 'utoopack',
@@ -41,6 +42,7 @@ export default defineConfig({
         concatenateModules: true,
       },
       './index-with-locales.js': {
+        name: 'antd',
         sourcemap: true,
         generateUnminified: true,
         bundler: 'utoopack',
